@@ -5,6 +5,22 @@
     <title>Title</title>
 </head>
 <body>
-<h1 th:text="'welcome getParameter'"></h1>
+<!--<h1 th:text="'welcome getParameter'"></h1>-->
+<!--<a th:href="@{/test1?data1=10&data2=20&data3=30&data3=400}">HttpServletRequest</a><br>-->
+<!--<a th:href="@{/test2?data1=50&data2=60&data3=70&data3=80&data4=90}">Webrequest</a>-->
+<!--<form method="post" action="/re_test3">-->
+<!--    data1 : <input type="text" name="val1"/> <br/>-->
+<!--    data2 : <input type="text" name="val2"/> <br/>-->
+<!--    <button type="submit">입력 완료</button>-->
+<!--</form>-->
+<form method="post" action="/re_test3">
+</form>
+<a th:href="@{/test5/10/20/30}">@pathvariable</a>
+
+<form method="post" action="/test6">
+    id <input type="text" name="uid"></br>
+    password <input type="password" name="upass"> </br>
+    <button type="submit">login</button>
+</form>
 </body>
 </html>
